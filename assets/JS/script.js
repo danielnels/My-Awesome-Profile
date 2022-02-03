@@ -19,7 +19,7 @@ navLinks.forEach((l) => {
 
 
 function sendMail() {
-    var link = "mailto:danieln@newground.net.au"
+    let link = "mailto:danieln@newground.net.au"
       + "?cc=danieln@newground.net.au"
       + "&subject=" + encodeURIComponent("request info")
       + "&body=" + encodeURI(document.location);
