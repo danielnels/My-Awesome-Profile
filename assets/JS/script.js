@@ -65,7 +65,7 @@ function showSkills() {
             run_duration -= 2000;
             _left.css({
               'clip': 'rect(0, 150px, 150px, 75px)',
-              'background': '#B0DAB9'
+              'background': '#1b023d'
             });
             return _left.animate({
               circle_rotate: deg
@@ -137,7 +137,7 @@ function showS() {
             run_duration -= 2000;
             _left.css({
               'clip': 'rect(0, 150px, 150px, 75px)',
-              'background': '#B0DAB9'
+              'background': '#1b023d'
             });
             return _left.animate({
               circle_rotate: deg
@@ -206,7 +206,7 @@ function showSk() {
             run_duration -= 2000;
             _left.css({
               'clip': 'rect(0, 150px, 150px, 75px)',
-              'background': '#B0DAB9'
+              'background': '#1b023d'
             });
             return _left.animate({
               circle_rotate: deg
