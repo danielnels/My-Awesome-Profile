@@ -23,7 +23,8 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
         <div class="container">
-            <a class="navbar-brand" href="#">Dan Nelson</a>
+            <a class="navbar-brand" href="">Daniel Nelson</a>
+            
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -35,20 +36,27 @@
                         <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#about">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Skills</a>
+                        <a class="nav-link" href="#services">My Skills</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#portfolio">My Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="#contact">Contact Me</a>
                     </li>
                 </ul>
-
+                <div class="text-center">
+                    <a href="./assets/Resume.pdf" class="btn btn-success">Link to Resume</a>
+                    <a href="https://github.com/" target="https://github.com/danielnels"><i
+                            class="fab fa-github fa-2x "></i></a>
+                    <a href="https://www.linkedin.com/" target="https://www.linkedin.com/in/daniel-nelson-788408156/"><i
+                            class="fab fa-linkedin fa-2x "></i></a>
+                </div>
             </div>
+
         </div>
     </nav>
     <!-- main banner -->
@@ -56,7 +64,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                    <h2 class="hero_title">Hi, it's me Dan</h2>
+                    <h2 class="hero_title">Welcome, it's me Dan</h2>
                     <p class="hero_desc">I am a Full stack Developer Student with the UWA Bottcamp</p>
                 </div>
             </div>
@@ -100,54 +108,86 @@
 
                         <div class="text-left">
                             <a href="./assets/Resume.pdf" class="btn btn-success">Link to Resume</a>
+
+
                         </div>
                     </div>
-                </div>
     </section>
 
     <!-- services section-->
     <section id="services">
         <div class="container">
-            <h1 class="text-center">Skills</h1>
-            <div class="row">
-                <div class="col-lg-4 mt-4">
-                    <div class="card servicesText">
-                        <div class="card-body">
-                            <i class="fab fa-html5 fa-5x"></i>
-                            <h4 class="card-title mt-3">HTML</h4>
-                            <p class="card-text mt-3">
-
-                            </p>
-                        </div>
+          <h1 class="text-center">My Skills</h1>
+          <div class="row">
+            <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                <div class="card-body">
+                  <i class="fab fa-html5 fa-5x"></i>
+                  <h4 class="card-title mt-3">HTML</h4>
+                  <p class="card-text mt-3">
+                  </p>
+                  <div class="skill-box">
+    
+                    <div class="skills-circle" id="hide" style="visibility:hidden">
+                      <ul>
+                        <li id="first" data-percent="80"><span class="text">HTML</span><span
+                            class="bar-circle-right"></span><span class="bar-circle-left"></span><span
+                            class="bar-circle-cover"></span><b id="b1"></b></li>
                     </div>
+                  </div>
                 </div>
-                <div class="col-lg-4 mt-4">
-                    <div class="card servicesText">
-                        <div class="card-body">
-                            <i class="fab fa-css3 fa-5x"></i>
-                            <h4 class="card-title mt-3">CSS</h4>
-                            <p class="card-text mt-3">
-
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card servicesText">
-                        <div class="card-body">
-                            <i class='fab fa-js fa-5x'> </i>
-                            <h4 class="card-title mt-3">Java Script</h4>
-                            <p class="card-text mt-3">
-
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                <button type="button" class="btn btn-success mt-3" onclick="showSkills()"
+                  id="contactMe">Skills</button>
+              </div>
             </div>
+            <div class="col-lg-4  mt-4">
+              <div class="card servicesText">
+                <div class="card-body">
+                  <i class="fab fa-css3 fa-5x"></i>
+                  <h4 class="card-title mt-3">CSS</h4>
+                  <p class="card-text mt-3">
+                  </p>
+                  <div class="skill-box">
+    
+                    <div class="skills-circle" id="hide2" style="visibility:hidden">
+                      <ul>
+                        <li id="second" data-percent="80"><span class="text">css</span><span class="bar-circle-right"></span><span
+                            class="bar-circle-left"></span><span class="bar-circle-cover"></span><b id="b2"></b></li>
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-success mt-3" onclick="showS()"
+                  id="contactMe">Skills</button>
+              </div>
+            </div>
+    
+            <div class="col-lg-4 mt-4">
+              <div class="card servicesText">
+                <div class="card-body">
+                  <i class='fab fa-js fa-5x'> </i>
+                  <h4 class="card-title mt-3">Java Script</h4>
+                  <p class="card-text mt-3">
+                  </p>
+                  <div class="skill-box">
+    
+                    <div class="skills-circle" id="hide3" style="visibility:hidden">
+                      <ul>
+                        <li id="third" data-percent="80"><span class="text">Java Script</span><span
+                            class="bar-circle-right"></span><span class="bar-circle-left"></span><span
+                            class="bar-circle-cover"></span><b id="b3"></b></li>
+                    </div>
+                  </div>
+    
+                </div>
+                <button type="button" class="btn btn-success mt-3" onclick="showSk()"
+                  id="contactMe">Skills</button>
+              </div>
+            </div>
+          </div>
         </div>
-        </div>
-    </section>
+    
+      </section>
+
 
     <!-- portfolio section-->
     <section id="portfolio">
@@ -159,8 +199,9 @@
                         <img class="card-img-top " src="./images/projectOne.jpg" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Project 1 Get Cultured</h4>
-                            <p class="card-text">Get Cultured is a web app that lets you search and view famous
-                                artworks.</p>
+                            <p class="card-text">Get Cultured is a Search Engine that lets the user search and view
+                                famous
+                                Artworks,Aritfacts by Name,Cultre and Period.</p>
                             <div class="text-center">
                                 <a href="https://danielnels.github.io/Project-1-Get-Cultured/"
                                     class="btn btn-success">Application Link</a>
@@ -221,8 +262,8 @@
                         <img class="card-img-top " src="./images/Password G.png" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Auto-Password-Generator</h4>
-                            <p class="card-text"> An application that enables employees to generate random passwords
-                                based on criteria that they’ve selected. .</p>
+                            <p class="card-text"> An application that enables employees to generate random passwords.
+                            </p>
                             <div class="text-center">
                                 <a href="https://danielnels.github.io/Auto-Password-Generator/"
                                     class="btn btn-success">Application Link</a>
@@ -301,17 +342,18 @@
             <div class="social-icons mt-4">
                 <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
                 <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/" target="https://github.com/danielnels"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/" target="https://www.linkedin.com/in/daniel-nelson-788408156/"><i
                         class="fab fa-linkedin"></i></a>
-                <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
             </div>
         </div>
     </footer>
 
     <!-- load javascript after loading all html content -->
-    <script src="./assets/JS/script.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./assets/JS/script.js"></script>
 </body>
 
 </html>
