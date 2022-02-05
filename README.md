@@ -36,3 +36,5 @@ Now that we have had some practice with APIs and a project to share, this weeks 
 ## Link to Deployed Application
 https://danielnels.github.io/Updated-Profile/
 
+## Licence
+MIT License
