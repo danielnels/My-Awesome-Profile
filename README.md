@@ -11,3 +11,5 @@ Now that we have had some practice with APIs and a project to share, this weeks 
 * Updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments.
 
 * Updated resume
+
+* Updated LinkedIn profile
