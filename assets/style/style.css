@@ -33,7 +33,15 @@ body{
     transform: translate(-50%, -50%);
     color: rgb(7, 7, 7);
 }
-
+#about{
+  background-color: lightblue;
+}
+#services{
+  background-color: rgb(171, 218, 171);
+}
+#portfolio{
+  background-color: lightblue;
+}
 /* spacing on all sections */
 /* #about, #services, #portfolio, #contact {
     margin-top: 4rem;
