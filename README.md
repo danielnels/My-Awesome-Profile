@@ -13,3 +13,10 @@ Now that we have had some practice with APIs and a project to share, this weeks 
 * Updated resume
 
 * Updated LinkedIn profile
+*
+## Technologies Used
+- **Bootstrap** is a *CSS Framework* and was used to style this webpage.   
+- **jQuery** was used to streamline the javascript. 
+- **Font-Awesome** use for soical meadia icons.
+- **Google fonts** for font stypes.
+- **Formspree** used a a hosting services in order to make the feedback form fully fuctional. 
