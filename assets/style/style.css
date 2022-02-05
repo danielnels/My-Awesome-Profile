@@ -78,11 +78,14 @@ body{
     font-size: 36px;
     cursor: pointer;
 }
-.fa-facebook:hover,.fa-github:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+.fa-facebook:hover,.fa-github:hover,.fa-twitter:hover,.fa-linkedin:hover,.fa-address-card:hover {
     color: #008000;
 }
 .fab {
     color: #4900f5;
+}
+.far {
+  color: #4900f5;
 }
 /* footer styling */
 #footer {
