@@ -6,7 +6,7 @@ Now that we have had some practice with APIs and a project to share, this weeks 
 
 ## Homework Requirements
 
-* Updated portfolio featuring Project 1 and two exemplary homework assignments.
+* Updated portfolio featuring Project 1 and at least two exemplary homework assignments.
 
 * Updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments.
 
@@ -20,7 +20,7 @@ Now that we have had some practice with APIs and a project to share, this weeks 
 - **Font-Awesome** use for soical meadia icons.
 - **Google fonts** for font stypes.
 - **Formspree** used a a hosting services in order to make the feedback form fully functional. 
-- **Moment.js** was used to present the currebt date on the home page.
+- **Moment.js** was used to present the current date on the home page.
 
 ## User experience
 - Upon opening the application the user is presented with my name, todays date and a nav bar with links  which to help navigate the page.
@@ -36,3 +36,5 @@ Now that we have had some practice with APIs and a project to share, this weeks 
 ## Link to Deployed Application
 https://danielnels.github.io/Updated-Profile/
 
+## Licence
+MIT License Copyright (c) 2022 Daniel Nelson
