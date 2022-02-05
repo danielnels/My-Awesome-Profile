@@ -14,16 +14,6 @@ Now that we have had some practice with APIs and a project to share, this weeks 
 
 * Updated LinkedIn profile
 
-## Instructions
-
-1. [Updated Portfolio](#updated-portfolio)
-
-2. [Updated GitHub Profile](#updated-github-profile)
-
-3. [Updated Resume](#updated-resume)
-
-4. [Updated LinkedIn](#updated-linkedin)
-
 ## Technologies Used
 - **Bootstrap** is a *CSS Framework* and was used to style this webpage.   
 - **jQuery** was used to streamline the javascript. 
