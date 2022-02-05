@@ -13,7 +13,7 @@ Now that we have had some practice with APIs and a project to share, this weeks 
 * Updated resume
 
 * Updated LinkedIn profile
-*
+
 ## Technologies Used
 - **Bootstrap** is a *CSS Framework* and was used to style this webpage.   
 - **jQuery** was used to streamline the javascript. 
