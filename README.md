@@ -37,4 +37,4 @@ Now that we have had some practice with APIs and a project to share, this weeks 
 https://danielnels.github.io/Updated-Profile/
 
 ## Licence
-MIT License
+MIT License Copyright (c) 2022 Daniel Nelson
