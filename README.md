@@ -36,5 +36,8 @@ Now that we have had some practice with APIs and a project to share, this weeks 
 ## Link to Deployed Application
 https://danielnels.github.io/Updated-Profile/
 
+## Link to Github Repository
+https://github.com/danielnels/Updated-Profile.git
+
 ## Licence
 MIT License Copyright (c) 2022 Daniel Nelson
