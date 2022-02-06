@@ -19,7 +19,7 @@ Now that we have had some practice with APIs and a project to share, this weeks 
 - **jQuery** was used to streamline the javascript. 
 - **Font-Awesome** use for soical meadia icons.
 - **Google fonts** for font stypes.
-- **Formspree** used a a hosting services in order to make the feedback form fully functional. 
+- **Formspree** used as a hosting services in order to make the feedback form fully functional. 
 - **Moment.js** was used to present the current date on the home page.
 
 ## User experience
