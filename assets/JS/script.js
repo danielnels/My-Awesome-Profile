@@ -16,7 +16,7 @@ const menuToggle = document.getElementById('navbarSupportedContent')
 navLinks.forEach((l) => {
     l.addEventListener('click', () => { new bootstrap.Collapse(menuToggle).toggle() })
 })
-
+// added moment to auto update totdays date 
 var currentDay = moment().format('MMMM Do YYYY');
 document.querySelector("#currentDay").innerHTML = (`${currentDay}`);
 console.log(currentDay);
@@ -33,7 +33,7 @@ function showSkills() {
   let node = document.getElementById('hide')
   node.style.visibility = 'visible';
 
-
+// skill box animation progress circle html
   $(document).ready(function () {
     $('.skill-box').find('#b1').each(function (i) {
       return $(this).prop('Counter', 0).animate({
@@ -95,10 +95,7 @@ function showSkills() {
   });
 
 }
-
-
-
-
+// skill box animation progress circle css
 
 function showS() {
   let node = document.getElementById('hide2')
@@ -169,7 +166,7 @@ function showS() {
 }
 
 
-
+// skill box animation progress circle css
 function showSk() {
   let node = document.getElementById('hide3')
   node.style.visibility = 'visible';
@@ -239,7 +236,7 @@ function showSk() {
 
   
 window.addEventListener("DOMContentLoaded", function () {
-  // get the form elements defined in your form HTML above
+  // getting the form elements defined in  form HTML above
 
   var form = document.getElementById("my-form");
   // var button = document.getElementById("my-form-button");
