@@ -17,20 +17,15 @@ navLinks.forEach((l) => {
     l.addEventListener('click', () => { new bootstrap.Collapse(menuToggle).toggle() })
 })
 // added moment to auto update totdays date 
-var currentDay = moment().format('MMMM Do YYYY');
+let currentDay = moment().format('MMMM Do YYYY');
 document.querySelector("#currentDay").innerHTML = (`${currentDay}`);
 console.log(currentDay);
 
-var currentHr = moment().format('HH');
-
-var currentDay = moment().format('MMMM Do YYYY');
-document.querySelector("#currentDay").innerHTML = (`${currentDay}`);
-console.log(currentDay);
-
-var currentHr = moment().format('HH');
+let currentHr = moment().format('HH');
 console.log(currentHr);
+
 function showSkills() {
-  let node = document.getElementById('hide')
+  const node = document.getElementById('hide')
   node.style.visibility = 'visible';
 
 // skill box animation progress circle html
@@ -98,7 +93,7 @@ function showSkills() {
 // skill box animation progress circle css
 
 function showS() {
-  let node = document.getElementById('hide2')
+  const node = document.getElementById('hide2')
   node.style.visibility = 'visible';
 
 
@@ -168,7 +163,7 @@ function showS() {
 
 // skill box animation progress circle css
 function showSk() {
-  let node = document.getElementById('hide3')
+  const node = document.getElementById('hide3')
   node.style.visibility = 'visible';
 
 
@@ -238,9 +233,9 @@ function showSk() {
 window.addEventListener("DOMContentLoaded", function () {
   // getting the form elements defined in  form HTML above
 
-  var form = document.getElementById("my-form");
-  // var button = document.getElementById("my-form-button");
-  var status = document.getElementById("status");
+  let form = document.getElementById("my-form");
+  // let button = document.getElementById("my-form-button");
+  let status = document.getElementById("status");
 
   // Success and Error functions for after the form is submitted
 
@@ -259,7 +254,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
   form.addEventListener("submit", function (ev) {
     ev.preventDefault();
-    var data = new FormData(form);
+    let data = new FormData(form);
     ajax(form.method, form.action, data, success, error);
   });
 });
@@ -267,7 +262,7 @@ window.addEventListener("DOMContentLoaded", function () {
 // helper function for sending an AJAX request
 
 function ajax(method, url, data, success, error) {
-  var xhr = new XMLHttpRequest();
+  let xhr = new XMLHttpRequest();
   xhr.open(method, url);
   xhr.setRequestHeader("Accept", "application/json");
   xhr.onreadystatechange = function () {
