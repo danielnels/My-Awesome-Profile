@@ -30,7 +30,7 @@ Now that we have had some practice with APIs and a project to share, this weeks 
 - Each project example has a GitHub repository link which can be accessed by the GitHub icon button.
 - The user can send a message/request via the full functional contact me page.
 
-## Image of deplyed Application 
+## Image of deployed Application 
 ![updated profile](https://user-images.githubusercontent.com/94213022/152631887-f40c1e65-2fb4-410b-87ce-ce346f1ace7e.png)
 
 ## Link to Deployed Application
