@@ -61,7 +61,7 @@ https://user-images.githubusercontent.com/94213022/161411126-bace6f7f-5651-42bb-
 https://danielnels.github.io/My-Awesome-Profile/
 
 ## Link to Github Repository
-https://github.com/danielnels/Updated-Profile.git
+https://github.com/danielnels/My-Awesome-Profile.git
 
 ## Questions
   Please e-mail me if you have any questions about this App
