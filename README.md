@@ -58,7 +58,7 @@ https://user-images.githubusercontent.com/94213022/161411126-bace6f7f-5651-42bb-
 ![updated profile](https://user-images.githubusercontent.com/94213022/152631887-f40c1e65-2fb4-410b-87ce-ce346f1ace7e.png)
 
 ## Link to Deployed Application
-https://danielnels.github.io/Updated-Profile/
+https://danielnels.github.io/My-Awesome-Profile/
 
 ## Link to Github Repository
 https://github.com/danielnels/Updated-Profile.git
