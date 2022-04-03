@@ -50,6 +50,10 @@ My updated protfolio page showcasing my lastest apllications inculding full-stac
 
 ## Walkthrough Demo
 
+
+https://user-images.githubusercontent.com/94213022/161411126-bace6f7f-5651-42bb-84a2-216ed7e8c8c8.mp4
+
+
 ## App Image
 ![updated profile](https://user-images.githubusercontent.com/94213022/152631887-f40c1e65-2fb4-410b-87ce-ce346f1ace7e.png)
 
